@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+//EXO1 ET EXO2
 public class Exo1 extends AppCompatActivity {
 
     private EditText edt1,edt2,edt3;
@@ -48,7 +49,7 @@ public class Exo1 extends AppCompatActivity {
     {
         super.onResume();
 
-        ((TextView) findViewById(R.id.compteur)).setText("nombre d'affichage" + compteur ++);
+        ((TextView) findViewById(R.id.compteur)).setText("nombre d'affichage " + compteur ++);
 
     }
 }
